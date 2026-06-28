@@ -1,0 +1,29 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "products"
+    label: "Shop Products"
+    files:
+      - name: "catalog"
+        label: "Product Catalog"
+        file: "data/products.json"
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            label_singular: "Product"
+            summary: "{{fields.name}} — ${{fields.price}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options: ["Feeders", "Cookers", "Accessories", "Others"]
+              - { label: "Price (USD)", name: "price", widget: "number", value_type: "float" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image", required: false }

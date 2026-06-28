@@ -1,0 +1,15 @@
+{
+  "products": [
+    {"id":"p1","name":"350lb broadcast feeder","category":"Feeders","price":900,"desc":"Heavy-duty broadcast feeder built to handle 350lbs of feed in the field.","image":""},
+    {"id":"p2","name":"2,000lb protein feeder with ladder","category":"Feeders","price":2400,"desc":"Large-capacity protein feeder with built-in ladder for easy filling.","image":""},
+    {"id":"p3","name":"Hitch rack","category":"Accessories","price":750,"desc":"Durable aluminum hitch rack for hauling gear and equipment.","image":""},
+    {"id":"p4","name":"10/30 combo crawfish cooker","category":"Cookers","price":1500,"desc":"Combo crawfish cooker setup, built for serious boils.","image":""},
+    {"id":"p5","name":"100lb road feeder","category":"Feeders","price":600,"desc":"Compact, portable road feeder, easy to transport and set up.","image":""},
+    {"id":"p6","name":"Pump station","category":"Accessories","price":1350,"desc":"Sturdy aluminum pump station for water and irrigation setups.","image":""},
+    {"id":"p7","name":"Cleaning rack","category":"Accessories","price":1650,"desc":"Stainless cleaning rack for processing game.","image":""},
+    {"id":"p8","name":"1,000lb broadcast feeder","category":"Feeders","price":1200,"desc":"Mid-size broadcast feeder for consistent feeding routines.","image":""},
+    {"id":"p9","name":"1,000lb protein feeder","category":"Feeders","price":1350,"desc":"Protein feeder sized for steady herd or game management.","image":""},
+    {"id":"p10","name":"Double 30gal crawfish cooker","category":"Cookers","price":2000,"desc":"Double 30-gallon crawfish cooker for big batches.","image":""},
+    {"id":"p11","name":"Custom aluminum patio table","category":"Others","price":850,"desc":"One-off custom builds that don't fit a category — tables, brackets, signage, and special requests.","image":""}
+  ]
+}
